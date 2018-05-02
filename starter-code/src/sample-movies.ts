@@ -1,3 +1,4 @@
+const Movies =
 [
   {
     id: 1,
@@ -16,8 +17,15 @@
       "William Sadler",
       "Clancy Brown",
       "Gil Bellows"
-    ]
-  }, {
+    ],
+    hours: [
+      "16:30",
+      "17:00",
+      "12:00"
+    ],
+    room: 6
+    }, 
+  {
     id: 2,
     title: "The Godfather",
     poster: "https://i.imgur.com/Uzvny9I.jpg",
@@ -34,7 +42,14 @@
       "Richard S. Castellano",
       "Robert Duvall",
       "Sterling Hayden"
-    ]
+    ],
+    hours: [
+      "16:30",
+      "17:00",
+      "12:00"
+    ],
+    room: 6
+    
   }, {
     id: 3,
     title: "The Godfather Part II",
@@ -52,7 +67,13 @@
       "Robert De Niro",
       "John Cazale",
       "Talia Shire"
-    ]
+    ],
+    hours: [
+      "16:30",
+      "17:00",
+      "12:00"
+    ],
+    room: 6
   }, {
     id: 4,
     title: "The Dark Knight",
@@ -70,9 +91,15 @@
       "Michael Caine",
       "Maggie Gyllenhaal",
       "Gary Oldman"
-    ]
-  }, {
-  {
+    ],
+    hours: [
+      "16:30",
+      "17:00",
+      "12:00"
+    ],
+    room: 6
+  }, 
+  {  
     id: 5,
     title: "Schindler's List",
     poster: "https://i.imgur.com/IWZJOmu.jpg",
@@ -89,6 +116,14 @@
       "Caroline Goodall",
       "Jonathan Sagall",
       "Embeth Davidtz"
-    ]
+    ],
+    hours: [
+      "16:30",
+      "17:00",
+      "12:00"
+    ],
+    room: 6
   }
 ]
+
+export default Movies;
